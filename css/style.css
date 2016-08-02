@@ -1,9 +1,46 @@
+html {
+  text-align: center;
+}
+
 p {
+  font-weight: bold;
   font-family: "helvetica";
   font-size: 1em;
-  color: #000845;
+  margin: 1.41667em auto;
+  /*color: #000845;*/
 }
 
 h2 {
   font-size: 2.7em;
+}
+
+img {
+  max-width: 50%;
+}
+
+.row2 {
+  background-color: lightblue;
+}
+
+.row3 {
+  background-color: orange;
+}
+
+.row4 {
+  color: white;
+  background-image: url("http://photos.capturearkansas.com/photos/vTAUsxLFgF_--JZ0f2H-EQ/showcase.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 255, 0, 0.3);
+}
+
+.row5 {
+  color: white;
+  background-color: blue;
+}
+
+.stone {
+  padding-left: 100px;
+  margin-right: 50%;
 }
